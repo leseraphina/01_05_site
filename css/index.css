@@ -246,6 +246,7 @@ overflow:hidden;
 #gallery{
   width:98%/* 1320px */;
   margin: 0 auto;
+  position:relative;
 }
 #show{}
 #all{
@@ -263,16 +264,22 @@ overflow:hidden;
   width:100%;
   margin-bottom:20px;}
 #gallery>p{
-  position:abslute;
+  display:none;
+  width:3vw;
+  height:3vw;
+  position:absolute;
   top:50%; 
+  background-color:red;
   }
 #gallery>.prev{
+  left:3vw;
   /* left:;  */
-  display:none;
+
   }
 #gallery>.next{
+  right:3vw;
   /* right:;  */
-  display:none;
+
   }
 #box05{
   background-color:#9c9491;
@@ -287,7 +294,7 @@ overflow:hidden;
 #box05>div{
   width:98%/* 1124px */;
   margin: 0 auto;
-  background-color:pink;
+  /* background-color:pink; */
 }
 #box05 .box{
   display:flex;
