@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protfolio</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/index_media.css">
+  <!-- <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+/> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="./js/jquery-3.6.1.min.js"></script>
+  <!--  defer : DOM 렌더링 후에 src 실행하기 -->
+  <script defer src="./js/index.js"></script>
+
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <div>
+        <p><i class="fa-solid fa-magnifying-glass"></i></p>
+        <h1><a href="#">My portfolio</a></h1>
+        <!-- nav -->
+        <nav>
+          <h2 class="hide">메인내비게이션</h2>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">INFO</a></li>
+            <li><a href="#">Skill</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+          <p class="close">close</p>
+        </nav>
+      </div>
+    <p class="btn">햄버거</p>
+    </header>
+    <!-- #box01 -->
+    <article id="box01">
+      <h3>
+        <span>We Design & Build</span>
+        <span>Creative Products</span>
+      </h3>
+      <ul>
+        <li>event01</li>
+        <li>event02</li>
+        <li>event03</li>
+        <li>event04</li>
+      </ul>
+    </article>
+    <!-- #box02 -->
+    <article id="box02">
+      <div>
+        <h3>About Me</h3>
+        <div class="box">
+          <figure>
+            <img src="./images/icon/people.png" alt="나의 이름">
+            <figcaption class="hide">나의 이름</figcaption>
+          </figure>
+          <div>
+            <p class="title">
+              Need a Creative Product? <br>
+              I can Help You!
+            </p>
+            <p class="text">Hi! I’m Muhammad Mabrouk, and I’m a developer who has passion for building clean web applications with intuitive functionality. I enjoy the process of turning ideas into reality using creative solutions. I’m always curious about learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have worked with creative teams, which involves daily stand-ups and communications, source control, and project management.
+            </p>
+            <p class="btn"><button type="button">Hear Me</button></p>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article id="box03">
+      <div>
+        <h3>My Skill</h3>
+        <div class="box">
+          <div>
+            <p class="title">
+              What My Programming <br>
+              Skills Included?
+            </p>
+            <p class="text">I develop simple, intuitive and responsive user interface that helps users get things done with less effort and time with those technologies.
+            </p>
+          </div>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>jquery</li>
+            <li>Vue</li>
+            <li>Bootstrap</li>
+            <li>Git</li>
+            <li>Npm</li>
+            <li>TpeScript</li>
+            <li>Sass</li>
+            <li>React</li>
+            <li>#</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+    <article id="box04">
+      <h3>MY WORKS</h3>
+      <p class="title">See My Works Which Will Amaze You!</p>
+      <p class="text">We develop the best quality website that serves for the long-term. Well-documented, clean, easy and elegant interface helps any non-technical clients.
+      </p>
+      <ul>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">Javascript</a></li>
+        <li><a href="#">vue</a></li>
+        <li><a href="#">React</a></li>
+      </ul>
+      <div id="gallery">
+        <div id="show">
+         <div id="all">
+          <figure>
+            <img src="./images/pic01.png" alt="work01">
+          <figcaption>work0</figcaption>
+        </figure>
+          <figure>
+            <img src="./images/pic02.png" alt="work02">
+          <figcaption>work0</figcaption>
+        </figure>
+          <figure>
+            <img src="./images/pic03.png" alt="work03">
+          <figcaption>work0</figcaption>
+        </figure>
+          <figure>
+            <img src="./images/pic04.png" alt="work04">
+          <figcaption>work0</figcaption>
+        </figure>
+          <figure>
+            <img src="./images/pic01.png" alt="work05">
+          <figcaption>work0</figcaption>
+        </figure>
+          <figure>
+            <img src="./images/pic02.png" alt="work06">
+          <figcaption>work0</figcaption>
+        </figure>
+         </div>
+        </div>
+        <p class="prev">prev</p>
+        <p class="next">next</p>
+      </div>
+      <div id="modal">
+        <p class="close">close</p>
+        <section>
+          <h3>title</h3>
+          <div>
+            <figure>
+              <img src="./images/pic01.png" alt="작품명">
+              <figcaption>작품1</figcaption>
+            </figure>
+            <dl>
+              <dt>제작년도</dt>
+              <dd>2022-12-22</dd>
+              <dt>사용 프로그램</dt>
+              <dd>????</dd>
+              <dt>설명</dt>
+              <dd>???</dd>
+              <dt>사이트</dt>
+              <dd><a href="#">http://wwww.aaa.com</a></dd>
+            </dl>
+          </div>
+        </section>
+      </div>
+    </div>
+    <article id="box05">
+      <div>
+        <h3>Contact</h3>
+        <div class="box">
+          <div>
+            <p class="title">
+              Have You Any Project? <br>
+              Please Drop a Message
+            </p>
+            <p class="text">
+              We develop the best quality website that serves for the long-term. Well-documented</p>
+            <dl>
+              <dt>Address:</dt>
+              <dd>941 Saqrqorish Road, alandalos, grnata, wa </dd>
+            </dl>
+            <dl>
+              <dt>Phone: </dt>
+              <dd><a href="tel:0000 0000 0000">(02) 0000 0000 0000</a></dd>
+            </dl>
+            <dl>
+              <dt>Email:</dt>
+              <dd><a href="mailto:info@sample.com">info@sample.com</a></dd>
+            </dl>
+          </div>
+          <form action="#" method="post">
+            <fieldset>
+              <legend class="hide">contact</legend>
+              <ul>
+                <li>
+                  <label for="userName">Name</label>
+                  <input type="text" id="userName" required>
+                </li>
+                <li>
+                  <label for="userEmail">Email</label>
+                  <input type="email" id="userEmail" required>
+                </li>
+                <li>
+                  <label for="userPhone">Phone</label>
+                  <input type="tel" id="userPhone" required>
+                </li>
+                <li>
+                  <label for="userMessage">Messgage</label>
+                  <textarea rows="5" cols="30" id="userMessage"></textarea>
+                </li>
+                <li>
+                  <input type="submit" value="submit">
+                </li>
+              </ul>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </article>
+    <aside>
+      <h4 class="hide">소스</h4>
+      <ul class="submenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">My Skill</a></li>
+        <li><a href="#">My Work</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <p class="top">^</p>
+    </aside>
+    <footer>
+      Copyright (c) 2022 my portfolio by My Name all right reserved
+    </footer>
+  </div>
+</body>
+</html>
