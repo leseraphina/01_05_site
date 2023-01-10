@@ -279,7 +279,6 @@ overflow:hidden;
 #gallery>.next{
   right:3vw;
   /* right:;  */
-
   }
 #box05{
   background-color:#9c9491;
@@ -425,4 +424,57 @@ aside p.top{
   left:0; top:0;
   background-color:rgba(0,0,0,0.9);
   display:none;
+  z-index:5000;
 }
+#modal>p{
+  position:absolute;
+  width:30px; height:30px;
+  right:30px; top:30px;
+  background-color:red;
+}
+#modal section{
+  position:fixed;
+  width:980px;
+  left:50%; top:50%;
+  margin: -200px 0 0 -490px;
+  background-color:#fff;
+  padding:25px;
+  box-sizing:border-box;
+}
+
+#modal section>h3{
+  font-size:35px;
+  margin-bottom:35px;
+  text-align:center;
+}
+
+#modal section>div{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+#modal section>div>figure{
+  width:45%;
+}
+#modal section>div>figure>img{
+  width:100%;
+}
+#modal section>div>dl{
+  width:45%;
+}
+#modal section>div>dl>dt{
+  width:40%;
+  clear:left;
+  float:left;
+  padding-bottom:20px;
+  border-bottom:1px solid #666;
+  margin-bottom:20px;
+}
+#modal section>div>dl>dd{
+  width:60%;
+  float:left;
+  padding-bottom:20px;
+  border-bottom:1px solid #666;
+  margin-bottom:20px;
+}
+

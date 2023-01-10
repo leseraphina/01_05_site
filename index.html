@@ -13,7 +13,7 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
 /> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="./js/jquery-3.6.1.min.js"></script>
+  <!-- <script src="./js/jquery-3.6.1.min.js"></script> -->
   <!--  defer : DOM 렌더링 후에 src 실행하기 -->
   <script defer src="./js/index.js"></script>
 
@@ -22,18 +22,16 @@
   <div id="wrap">
     <header>
       <div>
-        <p><i class="fa-solid fa-magnifying-glass"></i></p>
         <h1><a href="#">My portfolio</a></h1>
         <!-- nav -->
         <nav>
           <h2 class="hide">메인내비게이션</h2>
           <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">INFO</a></li>
-            <li><a href="#">Skill</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="#wrap">HOME</a></li>
+            <li><a href="#box02">about</a></li>
+            <li><a href="#box03">Skill</a></li>
+            <li><a href="#box04">Work</a></li>
+            <li><a href="#box05">contact</a></li>
           </ul>
           <p class="close">close</p>
         </nav>
@@ -119,27 +117,27 @@
          <div id="all">
           <figure>
             <img src="./images/pic01.png" alt="work01">
-          <figcaption>work0</figcaption>
+          <figcaption>work01</figcaption>
         </figure>
           <figure>
             <img src="./images/pic02.png" alt="work02">
-          <figcaption>work0</figcaption>
+          <figcaption>work02</figcaption>
         </figure>
           <figure>
             <img src="./images/pic03.png" alt="work03">
-          <figcaption>work0</figcaption>
+          <figcaption>work03</figcaption>
         </figure>
           <figure>
             <img src="./images/pic04.png" alt="work04">
-          <figcaption>work0</figcaption>
+          <figcaption>work04</figcaption>
         </figure>
           <figure>
             <img src="./images/pic01.png" alt="work05">
-          <figcaption>work0</figcaption>
+          <figcaption>work05</figcaption>
         </figure>
           <figure>
             <img src="./images/pic02.png" alt="work06">
-          <figcaption>work0</figcaption>
+          <figcaption>work06</figcaption>
         </figure>
          </div>
         </div>
@@ -157,13 +155,13 @@
             </figure>
             <dl>
               <dt>제작년도</dt>
-              <dd>2022-12-22</dd>
+              <dd class="year">2022-12-22</dd>
               <dt>사용 프로그램</dt>
-              <dd>????</dd>
+              <dd class="program">????</dd>
               <dt>설명</dt>
-              <dd>???</dd>
+              <dd class="text">???</dd>
               <dt>사이트</dt>
-              <dd><a href="#">http://wwww.aaa.com</a></dd>
+              <dd class="url"><a href="#">http://wwww.aaa.com</a></dd>
             </dl>
           </div>
         </section>
@@ -225,11 +223,11 @@
     <aside>
       <h4 class="hide">소스</h4>
       <ul class="submenu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">My Skill</a></li>
-        <li><a href="#">My Work</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#wrap">Home</a></li>
+        <li><a href="#box02">About</a></li>
+        <li><a href="#box03">My Skill</a></li>
+        <li><a href="#box04">My Work</a></li>
+        <li><a href="#box05">Contact</a></li>
       </ul>
       <p class="top">^</p>
     </aside>
